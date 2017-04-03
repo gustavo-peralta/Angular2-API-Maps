@@ -1,6 +1,15 @@
-# Angular2ApiGoogleMapsJavascript
+[![angular2-google-maps](assets/images/google-maps.png)]
+# Angular2 Api Google Maps
+
+Angular 2 + components for API Google Maps.
+
+[Website](http://www.gustavoperalta.online/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
+
+## Installation
+You can install the package with the following command:
+npm install 
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
