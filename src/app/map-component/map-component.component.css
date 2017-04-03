@@ -1,0 +1,35 @@
+/* ESTILOS PARA LOS BOTONES */
+.btn{ 
+  margin: 5px;
+}
+
+/* ESTILOS PARA EL LOADING */
+#loadingMap{
+  display: none;
+}
+
+
+/* ESTILOS PARA EL MAPA */
+.wrap-map{
+  padding: 10px;
+  border: 4px solid #ccc;
+  margin: 5px;
+}
+#map {
+  width: 100%;
+  height: 650px;
+}
+
+/* ESTILOS PARA LOS BOTONES DE ELIMINACIÓN Y AÑADIDO DE CAPA */
+#floating-panel {
+  padding: 5px;
+  border: 1px dotted #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  padding-left: 10px;
+  width: 305px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+ 

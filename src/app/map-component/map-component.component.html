@@ -1,0 +1,27 @@
+<div>
+    <span>Tipos de capas</span>
+</div>
+<button type="button" (click)="cargaOverlay('PARCELA')" class="btn btn-outline-primary btn-sm">Parcelas catastrales</button>
+<button type="button" (click)="cargaOverlay('TXTPARCELAS')" class="btn btn-outline-primary btn-sm">Código de parcela catastral</button>
+<button type="button" (click)="cargaOverlay('MASA,TXTMASA')" class="btn btn-outline-primary btn-sm">Polígonos y manzanas</button>
+<button type="button" (click)="cargaOverlay('SUBPARCE,TXTSUBPARCE')" class="btn btn-outline-primary btn-sm">Subparcelas de cultivo</button>
+<button type="button" (click)="cargaOverlay('CONSTRU,TXTCONSTRU')" class="btn btn-outline-primary btn-sm">Subparcelas de construcción</button>
+<button type="button" (click)="cargaOverlay('ELEMLIN')" class="btn btn-outline-primary btn-sm">Elementos lineales de cartografía</button>
+<button type="button" (click)="cargaOverlay('EJES')" class="btn btn-outline-primary btn-sm">Ejes de vías de comunicación</button>
+<button type="button" (click)="cargaOverlay('LIMITES')" class="btn btn-outline-primary btn-sm">Limites</button>
+<button type="button" (click)="cargaOverlay('TEXTOS')" class="btn btn-outline-primary btn-sm">Rotulación de la cartografía</button>
+<button type="button" (click)="cargaOverlay('CATASTRO')" class="btn btn-outline-primary btn-sm">Todo</button>
+
+  
+
+
+<div class="wrap-map">
+    <div id="floating-panel">
+        <input (click)="ocultaCapa();" type=button value="Remove overlay">
+        <input (click)="muestraCapa();" type=button value="Restore overlay">
+    </div>
+    <div id="loadingMap">CARGANDO MAPA</div>
+    <div id="map"></div>
+</div>
+
+
