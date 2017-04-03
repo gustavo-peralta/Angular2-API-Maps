@@ -1,9 +1,10 @@
-[![angular2-google-maps](assets/images/google-maps.png)]
+[![angular2-google-maps](https://github.com/gustavo-peralta/Angular2-API-Maps/blob/master/assets/images/google-maps.jpg)]
+
 # Angular2 Api Google Maps
 
 Angular 2 + components for API Google Maps.
 
-[Website](http://www.gustavoperalta.online/)
+[Website](http://www.gustavoperalta.online/Maps)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
